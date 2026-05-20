@@ -6,8 +6,8 @@
 
 | Sr No | Project Name              | Description                                                                 | Code Link                                      | Demo Link |
 |-------|---------------------------|-----------------------------------------------------------------------------|------------------------------------------------|-----------|
-| 1     | **QUIZ-COMPETITION**      | A Python Quiz Competition app with MCQs, coding challenges, debugging & logical problems. | [View Code](https://github.com/v595/QUIZ-COMPETITION) | N/A       |
-| 2     | **EXPENSES-TRACKER**      | Personal finance management app to track income, expenses, budgets and spending habits. | [View Code](https://github.com/v595/expenses_tracker) | N/A       |
+| 1     | **QUIZ-COMPETITION**      | A Python Quiz Competition app with MCQs, coding challenges, debugging & logical problems. | [View Code](https://github.com/v595/QUIZ-COMPETITION) |[View Demo](https://quiz-competition-f83r.onrender.com/)      |
+| 2     | **EXPENSES-TRACKER**      | Personal finance management app to track income, expenses, budgets and spending habits. | [View Code](https://github.com/v595/expenses_tracker) |[View Demo](https://expenses-tracker-bysn.onrender.com/)    |
 
 ---
 
