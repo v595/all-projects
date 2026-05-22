@@ -2,7 +2,7 @@ projects = [
     {
         "sr_no": 1,
         "name": "QUIZ-COMPETITION",
-        "description": "A Python Quiz Competition app with MCQs, coding challenges, debugging & logical problems.",
+        "description": "Python Quiz Competition app with MCQs, coding challenges, debugging & logical problems.",
         "code_link": "https://github.com/v595/QUIZ-COMPETITION",
         "demo_link": "https://quiz-competition-f83r.onrender.com/"
     },
@@ -16,33 +16,49 @@ projects = [
     {
         "sr_no": 3,
         "name": "HOTEL-MANAGEMENT-SYSTEM",
-        "description": "A hotel management system project for managing hotel operations, bookings, rooms, and customer records.",
+        "description": "Hotel management system for bookings, rooms, and customer records.",
         "code_link": "https://github.com/v595/hotel-management-system",
-        "demo_link": "—"
+        "demo_link": ""
     }
 ]
 
-# Generate Markdown Content
-markdown = "# All Project List with Code – v595\n\n"
-markdown += "**GitHub Profile:** https://github.com/v595\n\n"
-markdown += "## Projects\n\n"
-markdown += "| Sr No | Project Name | Description | Code Link | Demo Link |\n"
-markdown += "|-------|--------------|-------------|-----------|-----------|\n"
+# Create README content
+markdown = """# All Project List with Code – v595
 
+**GitHub Profile:** https://github.com/v595
+
+## Projects
+
+| Sr No | Project Name | Description | Code Link | Demo Link |
+|------|--------------|-------------|-----------|-----------|
+"""
+
+# Add project rows
 for project in projects:
-    markdown += (
-        f"| {project['sr_no']} | **{project['name']}** | "
-        f"{project['description']} | "
-        f"[View Code]({project['code_link']}) | "
-        f"{project['demo_link']} |\n"
+    demo = (
+        f"[View Demo]({project['demo_link']})"
+        if project["demo_link"]
+        else "Not Available"
     )
 
-markdown += "\n---\n\n"
-markdown += "**Made by:** Vishal Chauhan (v595)  \n"
-markdown += "**GitHub:** https://github.com/v595\n"
-markdown += "\n# all-projects"
+    markdown += (
+        f"| {project['sr_no']} "
+        f"| {project['name']} "
+        f"| {project['description']} "
+        f"| [View Code]({project['code_link']}) "
+        f"| {demo} |\n"
+    )
 
-# Save to README.md
+# Footer
+markdown += """
+
+---
+
+**Made by:** Vishal Chauhan (v595)  
+**GitHub:** https://github.com/v595
+"""
+
+# Save README.md
 with open("README.md", "w", encoding="utf-8") as file:
     file.write(markdown)
 
