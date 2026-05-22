@@ -2,60 +2,81 @@ projects = [
     {
         "sr_no": 1,
         "name": "QUIZ-COMPETITION",
-        "description": "Python Quiz Competition app with MCQs, coding challenges, debugging & logical problems.",
         "code_link": "https://github.com/v595/QUIZ-COMPETITION",
         "demo_link": "https://quiz-competition-f83r.onrender.com/"
     },
     {
         "sr_no": 2,
         "name": "EXPENSES-TRACKER",
-        "description": "Personal finance management app to track income, expenses, budgets and spending habits.",
         "code_link": "https://github.com/v595/expenses_tracker",
         "demo_link": "https://expenses-tracker-bysn.onrender.com/"
     },
     {
         "sr_no": 3,
         "name": "HOTEL-MANAGEMENT-SYSTEM",
-        "description": "Hotel management system for bookings, rooms, and customer records.",
         "code_link": "https://github.com/v595/hotel-management-system",
         "demo_link": ""
     }
 ]
 
-# Create README content
-markdown = """# All Project List with Code – v595
+# GitHub icon
+github_icon = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
 
-**GitHub Profile:** https://github.com/v595
+# Create README markdown
+markdown = """
+<h1 align="center">All Project List with Code</h1>
 
-## Projects
+<p align="center">
+<a href="https://github.com/v595">Visit My GitHub Profile</a>
+</p>
 
-| Sr No | Project Name | Description | Code Link | Demo Link |
-|------|--------------|-------------|-----------|-----------|
+<br>
+
+<table>
+<tr>
+<th>Sr No</th>
+<th>Name</th>
+<th>Code Link</th>
+<th>Demo Link</th>
+</tr>
 """
 
 # Add project rows
 for project in projects:
-    demo = (
-        f"[View Demo]({project['demo_link']})"
-        if project["demo_link"]
-        else "Not Available"
-    )
 
-    markdown += (
-        f"| {project['sr_no']} "
-        f"| {project['name']} "
-        f"| {project['description']} "
-        f"| [View Code]({project['code_link']}) "
-        f"| {demo} |\n"
-    )
+    code_btn = f'''
+    <a href="{project['code_link']}">
+        <img src="{github_icon}" width="40">
+    </a>
+    '''
+
+    if project["demo_link"]:
+        demo_btn = f'''
+        <a href="{project['demo_link']}">
+            <img src="{github_icon}" width="40">
+        </a>
+        '''
+    else:
+        demo_btn = "Not Available"
+
+    markdown += f"""
+<tr>
+<td>{project['sr_no']}</td>
+<td>{project['name']}</td>
+<td align="center">{code_btn}</td>
+<td align="center">{demo_btn}</td>
+</tr>
+"""
 
 # Footer
 markdown += """
+</table>
 
----
+<br>
 
-**Made by:** Vishal Chauhan (v595)  
-**GitHub:** https://github.com/v595
+<h3 align="center">
+Made by Vishal Chauhan (v595)
+</h3>
 """
 
 # Save README.md
