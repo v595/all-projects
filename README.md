@@ -1,75 +1,64 @@
-projects = [
-    {
-        "sr_no": 1,
-        "name": "QUIZ-COMPETITION",
-        "code_link": "https://github.com/v595/QUIZ-COMPETITION",
-        "demo_link": "https://quiz-competition-f83r.onrender.com/"
-    },
-    {
-        "sr_no": 2,
-        "name": "EXPENSES-TRACKER",
-        "code_link": "https://github.com/v595/expenses_tracker",
-        "demo_link": "https://expenses-tracker-bysn.onrender.com/"
-    },
-    {
-        "sr_no": 3,
-        "name": "HOTEL-MANAGEMENT-SYSTEM",
-        "code_link": "https://github.com/v595/hotel-management-system",
-        "demo_link": ""
-    }
-]
-
-# GitHub icon
-github_icon = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-
-# Create README markdown
-markdown = """
 <h1 align="center">All Project List with Code</h1>
 
 <p align="center">
-<a href="https://github.com/v595">Visit My GitHub Profile</a>
+  <a href="https://github.com/v595">
+    Visit My GitHub Profile
+  </a>
 </p>
 
 <br>
 
-<table>
+<table align="center">
 <tr>
 <th>Sr No</th>
-<th>Name</th>
+<th>Project Name</th>
 <th>Code Link</th>
 <th>Demo Link</th>
 </tr>
-"""
 
-# Add project rows
-for project in projects:
-
-    code_btn = f'''
-    <a href="{project['code_link']}">
-        <img src="{github_icon}" width="40">
-    </a>
-    '''
-
-    if project["demo_link"]:
-        demo_btn = f'''
-        <a href="{project['demo_link']}">
-            <img src="{github_icon}" width="40">
-        </a>
-        '''
-    else:
-        demo_btn = "Not Available"
-
-    markdown += f"""
 <tr>
-<td>{project['sr_no']}</td>
-<td>{project['name']}</td>
-<td align="center">{code_btn}</td>
-<td align="center">{demo_btn}</td>
+<td>1</td>
+<td>QUIZ-COMPETITION</td>
+<td align="center">
+<a href="https://github.com/v595/QUIZ-COMPETITION">
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40">
+</a>
+</td>
+<td align="center">
+<a href="https://quiz-competition-f83r.onrender.com/">
+<img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="40">
+</a>
+</td>
 </tr>
-"""
 
-# Footer
-markdown += """
+<tr>
+<td>2</td>
+<td>EXPENSES-TRACKER</td>
+<td align="center">
+<a href="https://github.com/v595/expenses_tracker">
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40">
+</a>
+</td>
+<td align="center">
+<a href="https://expenses-tracker-bysn.onrender.com/">
+<img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="40">
+</a>
+</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>HOTEL-MANAGEMENT-SYSTEM</td>
+<td align="center">
+<a href="https://github.com/v595/hotel-management-system">
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40">
+</a>
+</td>
+<td align="center">
+Not Available
+</td>
+</tr>
+
 </table>
 
 <br>
@@ -77,10 +66,3 @@ markdown += """
 <h3 align="center">
 Made by Vishal Chauhan (v595)
 </h3>
-"""
-
-# Save README.md
-with open("README.md", "w", encoding="utf-8") as file:
-    file.write(markdown)
-
-print("README.md generated successfully!")
