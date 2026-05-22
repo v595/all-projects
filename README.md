@@ -55,7 +55,9 @@
 </a>
 </td>
 <td align="center">
-Not Available
+<a href="https://hotel-management-system-luc1.onrender.com">
+<img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="40">
+</a>
 </td>
 </tr>
 
