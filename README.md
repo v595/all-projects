@@ -61,6 +61,21 @@
 </td>
 </tr>
 
+<tr>
+<td>4</td>
+<td>PORTFOLIO</td>
+<td align="center">
+<a href="https://github.com/v595/PORTFOLIO">
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40">
+</a>
+</td>
+<td align="center">
+<a href="https://vishalchauhann.netlify.app/">
+<img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="40">
+</a>
+</td>
+</tr>
+
 </table>
 
 <br>
