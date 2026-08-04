@@ -11,9 +11,9 @@
 <table align="center" width="100%">
 <tr>
 <th width="30%">Sr No</th>
-<th width="70%">Project Name</th>
-<th width="40%">Code Link</th>
-<th width="40%">Demo Link</th>
+<th width="120%">Project Name</th>
+<th width="60%">Code Link</th>
+<th width="60%">Demo Link</th>
 </tr>
 
 <tr>
