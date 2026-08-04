@@ -8,12 +8,12 @@
 
 <br>
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<th>Sr No</th>
-<th>Project Name</th>
-<th>Code Link</th>
-<th>Demo Link</th>
+<th width="10%">Sr No</th>
+<th width="50%">Project Name</th>
+<th width="20%">Code Link</th>
+<th width="20%">Demo Link</th>
 </tr>
 
 <tr>
