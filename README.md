@@ -10,10 +10,10 @@
 
 <table align="center" cellpadding="24" cellspacing="0">
 <tr>
-<th>Sr No</th>
-<th>Project Name</th>
-<th>Code Link</th>
-<th>Demo Link</th>
+<th>&nbsp;&nbsp;Sr&nbsp;No&nbsp;&nbsp;</th>
+<th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project&nbsp;Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th>&nbsp;&nbsp;&nbsp;Code&nbsp;Link&nbsp;&nbsp;&nbsp;</th>
+<th>&nbsp;&nbsp;&nbsp;Demo&nbsp;Link&nbsp;&nbsp;&nbsp;</th>
 </tr>
 
 <tr>
@@ -21,12 +21,12 @@
 <td>QUIZ-COMPETITION</td>
 <td align="center">
 <a href="https://github.com/v595/QUIZ-COMPETITION">
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40">
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="60">
 </a>
 </td>
 <td align="center">
 <a href="https://quiz-competition-f83r.onrender.com/">
-<img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="40">
+<img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="60">
 </a>
 </td>
 </tr>
@@ -36,12 +36,12 @@
 <td>EXPENSES-TRACKER</td>
 <td align="center">
 <a href="https://github.com/v595/expenses_tracker">
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40">
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="60">
 </a>
 </td>
 <td align="center">
 <a href="https://expenses-tracker-bysn.onrender.com/">
-<img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="40">
+<img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="60">
 </a>
 </td>
 </tr>
@@ -51,12 +51,12 @@
 <td>HOTEL-MANAGEMENT-SYSTEM</td>
 <td align="center">
 <a href="https://github.com/v595/hotel-management-system">
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40">
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="60">
 </a>
 </td>
 <td align="center">
 <a href="https://hotel-management-system-luc1.onrender.com">
-<img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="40">
+<img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="60">
 </a>
 </td>
 </tr>
@@ -66,12 +66,12 @@
 <td>PORTFOLIO</td>
 <td align="center">
 <a href="https://github.com/v595/PORTFOLIO">
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40">
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="60">
 </a>
 </td>
 <td align="center">
 <a href="https://vishalchauhann.netlify.app/">
-<img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="40">
+<img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="60">
 </a>
 </td>
 </tr>
