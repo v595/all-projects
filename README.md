@@ -10,10 +10,10 @@
 
 <table align="center" width="100%">
 <tr>
-<th width="10%">Sr No</th>
-<th width="50%">Project Name</th>
-<th width="20%">Code Link</th>
-<th width="20%">Demo Link</th>
+<th width="30%">Sr No</th>
+<th width="70%">Project Name</th>
+<th width="40%">Code Link</th>
+<th width="40%">Demo Link</th>
 </tr>
 
 <tr>
